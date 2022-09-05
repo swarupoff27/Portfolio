@@ -6,344 +6,266 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
     <title>Swarup Gourkar</title>
 </head>
 
 <body>
 
     <!-- navbar -->
-    <nav class="navbar">
-        <div class="navbar-container">
-            <div class="navbar-name">
-                <a href="#">Hi! I'am <b>Swarup Gourkar</b></a>
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-left ">
+                <a href="#internships">INTERNSHIPS</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#education">EDUCATION</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+            <div class="nav-right ">
+                <a href="mailto:swarupoff27@gmail.com"><img
+                        src="https://cdn-icons-png.flaticon.com/128/2702/2702649.png" alt="gmail"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/swarupgourkar/"><img
+                        src="https://cdn-icons-png.flaticon.com/128/39/39714.png" alt="linkedin"></a>
+                <a target="_blank" href="https://github.com/swarupoff27"><img
+                        src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="github"></a>
+                <a target="_blank" href="https://codepen.io/swarupoff27/"><img
+                        src="https://cdn-icons-png.flaticon.com/512/2111/2111501.png" alt="codepen"></a>
             </div>
 
-            <ul class="navbar-nav-left">
-                <li>
-                    <a href="#internships">Internships</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
+            <div class="name">
+                <span>Hey! I am Swarup Gourkar</span>
+            </div>
+            <div class="hamburger">
+                <i id="menu-btn" class="ham fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="hamburger-menu hidden" id="menu">
+            <div class="ham-scroll">
+                <a class="ham-items" href="#internships">INTERNSHIPS</a>
+                <a class="ham-items" href="#projects">PROJECTS</a>
+                <a class="ham-items" href="#education">EDUCATION</a>
+                <a class="ham-items" href="#contact">CONTACT</a>
+            </div>
 
-            <ul class="navbar-nav-right">
-
-                <li>
-                    <a href="mailto:swarupoff27@gmail.com"><img
-                            src="https://cdn-icons-png.flaticon.com/128/2702/2702649.png" alt="gmail"></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/swarupgourkar/"><img
-                            src="https://cdn-icons-png.flaticon.com/128/39/39714.png" alt="linkedin"></a>
-                </li>
-                <li>
-                    <a href="https://github.com/swarupoff27"><img
-                            src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="github"></a>
-                </li>
-                <li>
-                    <a href="https://codepen.io/swarupoff27/"><img
-                            src="https://cdn-icons-png.flaticon.com/512/2111/2111501.png" alt="codepen"></a>
-                </li>
-
-            </ul>
-
-            <!-- Hamburger menu button -->
-
-            <ul class="navbar-nav-ham">
-                <li>
-                    <div type="button" class="hamburger" id="menu-btn">
-                        <span class="hamburger-1"></span>
-                        <span class="hamburger-2"></span>
-                        <span class="hamburger-3"></span>
-
-                    </div>
-                </li>
-            </ul>
-
-
-
+            <div class="ham-social">
+                <a href="mailto:swarupoff27@gmail.com"><img
+                        src="https://cdn-icons-png.flaticon.com/128/2702/2702649.png" alt="gmail"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/swarupgourkar/"><img
+                        src="https://cdn-icons-png.flaticon.com/128/39/39714.png" alt="linkedin"></a>
+                <a target="_blank" href="https://github.com/swarupoff27"><img
+                        src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="github"></a>
+                <a target="_blank" href="https://codepen.io/swarupoff27/"><img
+                        src="https://cdn-icons-png.flaticon.com/512/2111/2111501.png" alt="codepen"></a>
+            </div>
         </div>
     </nav>
 
-    <!-- Hamburger Menu -->
-
-    <div class="hamburger-menu hidden" id="menu">
-        <ul class="ham-scroll">
-            <li>
-                <a href="#internships" onclick="navtoggle()">Internships</a>
-            </li>
-            <li>
-                <a href="#projects" onclick="navtoggle()">Projects</a>
-            </li>
-            <li>
-                <a href="#education" onclick="navtoggle()">Education</a>
-            </li>
-            <li>
-                <a href="#contact" onclick="navtoggle()">Contact</a>
-            </li>
-        </ul>
-
-        <div class="ham-social-div">
-            <ul class="ham-social-ul">
-
-                <li>
-                    <a href="mailto:swarupoff27@gmail.com"><img
-                            src="https://cdn-icons-png.flaticon.com/128/2702/2702649.png"
-                            alt="gmail"></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/swarupgourkar/"><img
-                            src="https://cdn-icons-png.flaticon.com/128/39/39714.png"
-                            alt="linkedin"></a>
-                </li>
-                <li>
-                    <a href="https://github.com/swarupoff27"><img
-                            src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
-                            alt="github"></a>
-                </li>
-                <li>
-                    <a href="https://codepen.io/swarupoff27/"><img
-                            src="https://cdn-icons-png.flaticon.com/512/2111/2111501.png" alt="codepen"></a>
-                </li>
-
-            </ul>
-
-        </div>
-    </div>
-
 
     <!-- photo section1 -->
-    <section class="box box-1 section1">
-        <table class="table-inner1">
-            <tr>
-                <td>
-                    <table class="int1">
-                        <tr>
-                            <td>
-                                <img src="./circle.png" alt="">
-                                <h1>Front-End Developer</h1>
-                                <p>Based in Yavatmal,Maharashtra,India.</p><br>
-                                <a class="verify-btn" href="#contact">Lets work</a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-
-        </table>
+    <section class="section1 container">
+        <img src="Myphoto.png" alt="Myphoto">
+        <h1>Front-End Developer</h1>
+        <p>Based in Yavatmal,Maharashtra,India.</p>
+        <a class="btn" href="#contact">Let's work</a>
     </section>
 
     <!-- internship section2 -->
-    <section class="box box-2 section2" id="internships">
+    <section class="section2 container" id="internships">
 
-        <table class="table-inner2">
-            <tr>
-                <td>
-                    <h1>My Internships</h1>
-                    <table class="int2">
-                        <tr>
-                            <td>
-                                <h4>OnRoadOut</h4><br>
-                                <p><span>Role:-</span> React-Native Developer Intern.</p>
-                                <p><span>Tenure:-</span> February 4, 2021 – August 4, 2021.</p>
-                                <p><span>Skills:-</span> React Native, HTML, CSS, JavaScript</p>
-                                <br><br>
-                                <a class="verify-btn"
-                                    href="https://drive.google.com/file/d/1w95JEnLR8vHN_rJN2psaQR1GqhQwpNnX/view?usp=sharing">Certificate</a>
-                            </td>
+        <h2>My Internships</h2>
 
-                        </tr>
-
-                    </table>
-
-
-
-                    <table class="int2">
-                        <tr>
-                            <td>
-                                <h4>Trendset Power & Technology Consultants Pvt. Ltd.</h4><br>
-                                <p><span>Role:-</span>Engineer Intern.</p>
-                                <p><span>Tenure:-</span>June 15, 2019 – July 31, 2019.</p>
-                                <p><span>Skills:-</span> Web Developing, Digital Marketing</p>
-                                <br><br>
-                                <a class="verify-btn"
-                                    href="https://drive.google.com/file/d/1fGLAXGJFA8NsR2daUrxN9DEdpt7IvNs5/view?usp=sharing">Certificate</a>
-                            </td>
-                        </tr>
-                    </table>
-
-                </td>
-            </tr>
-        </table>
+        <div class="wrapper">
+            <div class="internship">
+                <h3>FULL Creative</h3>
+                <p><span class="grey">Role:</span>Web Developer Intern.</p>
+                <p class="grey"><span>Tenure:</span>May 4, 2022 – August 31, 2022.</p>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span><span
+                        class="skills">JavaScript</span><span class="skills">SASS</span><span
+                        class="skills">NPM</span><span class="skills">Task Runners</span><span class="skills">Module
+                        Bundlers</span></p>
+                <a class="btn" target="_blank" href="">Certificate</a>
+            </div>
+            <div class="internship">
+                <h3>OnRoadOut</h3>
+                <p><span class="grey">Role:</span>React-Native Developer Intern.</p>
+                <p class="grey"><span>Tenure:</span>February 4, 2021 – August 4, 2021.</p>
+                <p><span class="skills">React Native</span><span class="skills">CSS</span><span
+                        class="skills">JavaScript</span></p>
+                <a class="btn" target="_blank"
+                    href="https://drive.google.com/file/d/1w95JEnLR8vHN_rJN2psaQR1GqhQwpNnX/view?usp=sharing">Certificate</a>
+            </div>
+            <div class="internship">
+                <h3>Trendset Power & Technology Consultants Pvt. Ltd.</h3>
+                <p><span class="grey">Role:</span>Engineer Intern.</p>
+                <p class="grey"><span>Tenure:</span>June 15, 2019 – July 31, 2019.</p>
+                <p><span class="skills">Web Developing</span><span class="skills">Digital Marketing</span></p>
+                <a class="btn" target="_blank"
+                    href="https://drive.google.com/file/d/1fGLAXGJFA8NsR2daUrxN9DEdpt7IvNs5/view?usp=sharing">Certificate</a>
+            </div>
+        </div>
     </section>
 
     <!-- Projects section3 -->
-    <section class="box box-3 section3" id="projects">
-        <table class="table-inner3">
-            <tr>
-                <td>
-                    <h1>My Projects</h1>
-                    <table class="int3">
-                        <tr>
-                            <td>
-                                <h4>Portfolio</h4><br>
-                                <p><span>Skills:-</span> HTML, CSS, JavaScript</p>
-                                <br><br>
-                                <a class="verify-btn" href="">View</a>
-                            </td>
+    <section class="section3 container" id="projects">
 
-                        </tr>
+        <h2>My Projects</h2>
 
-                    </table>
-
-                    <table class="int3">
-                        <tr>
-                            <td>
-                                <h4>IRIS-The Chatbot</h4><br>
-                                <p><span>Skills:-</span>HTML, CSS.</p>
-                                <br><br>
-                                <a class="verify-btn" href="https://swarupoff27.github.io/Cogno-AI/">View</a>
-                            </td>
-                        </tr>
-                    </table>
-                    <table class="int3">
-                        <tr>
-                            <td>
-                                <h4>Email Template</h4><br>
-                                <p><span>Skills:-</span> HTML, CSS.</p>
-                                <br><br>
-                                <a class="verify-btn" href="https://swarupoff27.github.io/Email-Template/">View</a>
-                            </td>
-                        </tr>
-                    </table>
-                    <table class="int3">
-                        <tr>
-                            <td>
-                                <h4>Landing Page</h4><br>
-                                <p><span>Skills:-</span> HTML, CSS, JavaScript</p>
-                                <br><br>
-                                <a class="verify-btn" href="https://swarupoff27.github.io/Landing-Page/">View</a>
-                            </td>
-                        </tr>
-                    </table>
-
-                </td>
-            </tr>
-        </table>
-
-    </section>
-
-    <!-- Education section4 -->
-    <section class="box box-4 section4" id="education">
-        <table class="table-inner4">
-            <tr>
-                <td>
-                    <h1>My Education</h1>
-                    <table class="int4">
-                        <tr>
-                            <td>
-                                <h4>B.Tech</h4><br>
-                                <p><span>College:-</span>MIT Academy Of Engineering.</p>
-                                <p><span>Location:-</span>Pune.</p>
-                                <p><span>CGPA:-</span>7.2</p>
-                                <br><br>
-                                <a class="verify-btn" href="">Certificate</a>
-                            </td>
-
-                        </tr>
-
-                    </table>
-
-                    <table class="int4">
-                        <tr>
-                            <td>
-                                <h4>H.S.C (12th)</h4><br>
-                                <p><span>College:-</span>Jajoo Junior College.</p>
-                                <p><span>Location:-</span>Yavatmal.</p>
-                                <p><span>Percentage:-</span>62.77%</p>
-                                <br><br>
-                                <a class="verify-btn"
-                                    href="https://drive.google.com/file/d/1OddJXPNPHUlfFGsaFysPurklOxidurqE/view?usp=sharing">Certificate</a>
-                            </td>
-                        </tr>
-                    </table>
-                    <table class="int4">
-                        <tr>
-                            <td>
-                                <h4>S.S.C (10th)</h4><br>
-                                <p><span>School:-</span>Yavatmal Public School.</p>
-                                <p><span>Location:-</span>Yavatmal.</p>
-                                <p><span>CGPA:-</span>8.6</p>
-                                <br><br>
-                                <a class="verify-btn"
-                                    href="https://drive.google.com/file/d/11DXMGIfxUe9KIcYiOMB0S9g4QAGt6XBb/view?usp=sharing">Certificate</a>
-                            </td>
-                        </tr>
-                    </table>
-
-
-                </td>
-            </tr>
-        </table>
-
-    </section>
-
-    <!-- Contact section -->
-    <section class="box section" id="contact">
-        <table class="table-inner2">
-            <tr>
-                <td>
-                    <h1>Contact</h1>
-                    <table class="int-contact">
-                        <tr>
-                            <td>
-                                <h2>Let's work together!</h2>
-                                <div class="con">
-                                    <a class="verify-btn" href="mailto:swarupoff27@gmail.com">Gmail</a>
-                                    <a class="verify-btn" href="https://www.linkedin.com/in/swarupgourkar/">Linkedin</a>
-
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-
-        </table>
-    </section>
-
-    <!-- footer -->
-    <section class="box footer">
-        <div class="footer-container">
-            <div class="footer-name">
-                <a href="#"><b>&#169; 2022 Swarup Gourkar</b></a>
+        <div class="wrapper">
+            <div class="project">
+                <h3>To-Do List</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span><span class="skills">JavaScript</span>
+                </p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/Todolist/">View</a>
             </div>
-
-            <ul class="footer-nav-left">
-                <li>
-                    <a href="mailto:swarupoff27@gmail.com">Gmail</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/swarupgourkar/">Linkedin</a>
-                </li>
-                <li>
-                    <a href="https://github.com/swarupoff27">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://codepen.io/swarupoff27/">Codepen</a>
-                </li>
-            </ul>
+            <div class="project">
+                <h3>Autocryp Website</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span><span
+                        class="skills">JavaScript</span><span class="skills">Responsiveness</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/Autocryp/">View</a>
+            </div>
+            <div class="project">
+                <h3>Car Dealing Website</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span><span class="skills">SASS</span><span
+                        class="skills">Responsiveness</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/Car-Dealing/">View</a>
+            </div>
+            <div class="project">
+                <h3>CasaRoyal Website</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span><span
+                        class="skills">Responsiveness</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/casaRoyal/">View</a>
+            </div>
+            <div class="project">
+                <h3>Reality Properties Website</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/Reality-Properties/">View</a>
+            </div>
+            <div class="project">
+                <h3>OGI Website</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/OGI/">View</a>
+            </div>
+            <div class="project">
+                <h3>Travel Landing Page</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/Travel-Landing-Page/">View</a>
+            </div>
+            <div class="project">
+                <h3>Ziurby Website</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/Ziurby/">View</a>
+            </div>
+            <div class="project">
+                <h3>Reports Email Template</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/reports/">View</a>
+            </div>
+            <div class="project">
+                <h3>Crafting Email Template</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/craftingemail/">View</a>
+            </div>
+            <div class="project">
+                <h3>Bluelight Email Template</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/Bluelight-template/">View</a>
+            </div>
+            <div class="project">
+                <h3>Portfolio</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span><span class="skills">JavaScript</span>
+                </p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/Portfolio/">View</a>
+            </div>
+            <div class="project">
+                <h3>IRIS-The Chatbot</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/Cogno-AI/">View</a>
+            </div>
+            <div class="project">
+                <h3>First Email Template</h3>
+                <p><span class="skills">HTML</span><span class="skills">CSS</span></p>
+                <a class="btn" target="_blank" href="https://swarupoff27.github.io/Email-Template/">View</a>
+            </div>
 
         </div>
     </section>
 
+    <!-- Education section4 -->
+    <section class="section4 container" id="education">
+        <h2>My Education</h2>
+        <div class="wrapper">
+            <div class="education">
+                <h3>B.Tech</h3>
+                <p class="grey"><span>College:</span>MIT Academy Of Engineering.</p>
+                <p class="grey"><span>Location:</span>Pune.</p>
+                <p><span class="grey">CGPA:</span>7.2</p>
+                <br><br>
+                <a class="btn" target="_blank" href="">Certificate</a>
+            </div>
+            <div class="education">
+                <h3>H.S.C (12th)</h3>
+                <p class="grey"><span>College:</span>Jajoo Junior College.</p>
+                <p class="grey"><span>Location:</span>Yavatmal.</p>
+                <p><span class="grey">Percentage:</span>62.77%</p>
+                <br><br>
+                <a class="btn" target="_blank"
+                    href="https://drive.google.com/file/d/1OddJXPNPHUlfFGsaFysPurklOxidurqE/view?usp=sharing">Certificate</a>
+            </div>
+            <div class="education">
+                <h3>S.S.C (10th)</h3>
+                <p class="grey"><span>School:</span>Yavatmal Public School.</p>
+                <p class="grey"><span>Location:</span>Yavatmal.</p>
+                <p><span class="grey">CGPA:</span>8.6</p>
+                <br><br>
+                <a class="btn" target="_blank"
+                    href="https://drive.google.com/file/d/11DXMGIfxUe9KIcYiOMB0S9g4QAGt6XBb/view?usp=sharing">Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="section5 container" id="contact">
+        <h2>Contact</h2>
+        <div class="contact">
+            <h3>Let's work together!</h3>
+            <div class="social">
+                <a class="gmail" href="mailto:swarupoff27@gmail.com">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="">
+                </a>
+                <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/swarupgourkar/">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-name">
+                <a href="#"><b>&#169; 2022 Swarup Gourkar</b></a>
+            </div>
+            <div class="footer-nav">
+                <a href="mailto:swarupoff27@gmail.com">GMAIL</a>
+                <a target="_blank" href="https://www.linkedin.com/in/swarupgourkar/">LINKEDIN</a>
+                <a target="_blank" href="https://github.com/swarupoff27">GITHUB</a>
+                <a target="_blank" href="https://codepen.io/swarupoff27/">CODEPEN</a>
+            </div>
+
+            <div class="footer-nav-logo">
+                <a href="mailto:swarupoff27@gmail.com"><img
+                        src="https://cdn-icons-png.flaticon.com/128/2702/2702649.png" alt="gmail"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/swarupgourkar/"><img
+                        src="https://cdn-icons-png.flaticon.com/128/39/39714.png" alt="linkedin"></a>
+                <a target="_blank" href="https://github.com/swarupoff27"><img
+                        src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="github"></a>
+                <a target="_blank" href="https://codepen.io/swarupoff27/"><img
+                        src="https://cdn-icons-png.flaticon.com/512/2111/2111501.png" alt="codepen"></a>
+            </div>
+
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
